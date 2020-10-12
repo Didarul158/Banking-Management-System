@@ -43,7 +43,7 @@
             // 
             // UserLabel
             // 
-            this.UserLabel.BackColor = System.Drawing.Color.Red;
+            this.UserLabel.BackColor = System.Drawing.Color.Blue;
             this.UserLabel.Font = new System.Drawing.Font("Bernard MT Condensed", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserLabel.ForeColor = System.Drawing.Color.Black;
             this.UserLabel.Location = new System.Drawing.Point(424, 39);
@@ -54,7 +54,7 @@
             // 
             // PassLabel
             // 
-            this.PassLabel.BackColor = System.Drawing.Color.Red;
+            this.PassLabel.BackColor = System.Drawing.Color.Blue;
             this.PassLabel.Font = new System.Drawing.Font("Bernard MT Condensed", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PassLabel.Location = new System.Drawing.Point(424, 98);
             this.PassLabel.Name = "PassLabel";
@@ -111,7 +111,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Red;
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(28, 39);
             this.pictureBox1.Name = "pictureBox1";
@@ -135,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Fuchsia;
+            this.BackColor = System.Drawing.Color.Violet;
             this.ClientSize = new System.Drawing.Size(833, 411);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

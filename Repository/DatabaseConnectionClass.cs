@@ -13,7 +13,7 @@ namespace Repository
 
         public DatabaseConnectionClass()
         {
-            string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=D:\ARUP.C#\BankingManagementSystem\BankingManagementSystemdb.mdf;Integrated Security=True;Connect Timeout=30";  //paste the connection string between the ""
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=F:\BankingManagementSystem\BankingManagementSystemdb.mdf;Integrated Security=True;Connect Timeout=30";
             myConnection = new SqlConnection(connectionString);
         }
 
